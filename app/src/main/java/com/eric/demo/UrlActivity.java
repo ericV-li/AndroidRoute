@@ -10,7 +10,7 @@ import com.eric.route.link.UrlRouter;
 /**
  * @author li
  * @Package com.eric.demo
- * @Title: SecondActivity
+ * @Title: UrlActivity
  * @Description: Copyright (c)
  * Create DateTime: 2018/10/23
  */
