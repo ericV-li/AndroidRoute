@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SecondActivity"
+            android:name=".UrlActivity"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.eric.route" />
@@ -31,6 +31,18 @@
                 <data
                     android:host="trade"
                     android:path="/detail"
+                    android:scheme="eric" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LocalActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.eric.route" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="trade"
+                    android:path="/local"
                     android:scheme="eric" />
             </intent-filter>
         </activity>

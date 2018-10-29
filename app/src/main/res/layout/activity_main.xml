@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_Url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UrlRouter 跳转"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_Local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LocalRouter 跳转"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/txt_app"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="哈哈哈哈哈哈哈哈哈"
-        android:textSize="21sp"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="191dp" />
+        android:layout_marginTop="15dp"
+        android:textSize="21sp" />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
