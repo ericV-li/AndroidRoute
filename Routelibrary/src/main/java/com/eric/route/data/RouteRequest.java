@@ -1,11 +1,3 @@
-/**
- * @Package com.transfar.router.link
- * @Title: RouteRequest
- * @Description (业务请求对象)
- * Copyright (c) 传化公路港物流有限公司版权所有
- * Create DateTime: 2017/6/13
- * @Author czl 2017/6/13
- */
 package com.eric.route.data;
 
 import org.json.JSONException;

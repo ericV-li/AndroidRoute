@@ -1,11 +1,3 @@
-/**
- * @Package com.transfar.router.link
- * @Title: UrlRouter
- * @Description (android端用于路由跳转中间件, 支持配置跳转动画、是否包外跳转、RequestCode、参数传递, flag)
- * Copyright (c) 传化公路港物流有限公司版权所有
- * Create DateTime: 2017/6/13
- * @Author czl 2017/6/13
- */
 package com.eric.route.link;
 
 import android.app.Activity;

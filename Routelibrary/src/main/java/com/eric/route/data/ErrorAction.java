@@ -1,16 +1,8 @@
-/**
- * @Package com.transfar.router.link
- * @Title: ErrorAction
- * @Description (默认错误行为动作)
- * Copyright (c) 传化公路港物流有限公司版权所有
- * Create DateTime: 2017/6/13
- * @Author czl 2017/6/13
- */
 package com.eric.route.data;
 
 import android.content.Context;
 
-import com.eric.demo.utils.ExecutorServiceHelper;
+import com.eric.route.utils.ExecutorServiceHelper;
 
 import java.util.HashMap;
 
@@ -18,7 +10,7 @@ import java.util.HashMap;
 /**
  * @author li
  * @Package com.eric.route.data
- * @Title: ExecutorServiceHelper
+ * @Title: ErrorAction
  * @Description: Copyright (c)
  * Create DateTime: 2017/4/18
  * 错误执行

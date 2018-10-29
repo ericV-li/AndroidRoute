@@ -1,11 +1,3 @@
-/**
- * @Package com.transfar.router.link
- * @Title: Provider
- * @Description (抽象服务提供者)
- * Copyright (c) 传化公路港物流有限公司版权所有
- * Create DateTime: 2017/6/13
- * @Author czl 2017/6/13
- */
 package com.eric.route.data;
 
 import java.util.HashMap;

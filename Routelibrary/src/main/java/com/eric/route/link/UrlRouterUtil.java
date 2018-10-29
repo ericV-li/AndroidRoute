@@ -1,11 +1,3 @@
-/**
- * @Package com.transfar.router.link
- * @Title: UrlRouterUtil
- * @Description (跳转路由工具实现类)
- * Copyright (c) 传化公路港物流有限公司版权所有
- * Create DateTime: 2017/6/13
- * @Author czl 2017/6/13
- */
 package com.eric.route.link;
 
 import android.app.Activity;
